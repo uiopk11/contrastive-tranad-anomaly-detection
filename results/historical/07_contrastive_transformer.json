@@ -1,0 +1,15 @@
+{
+  "notebook": "notebooks/07_contrastive_transformer.ipynb",
+  "source_sha256": "c92a7fcc36f9e583ccce50f95d0023104c3e2966c6624358137734c6cfc49754",
+  "status": "saved source stdout, not rerun or independently validated",
+  "outputs": [
+    {
+      "source_cell_index": 8,
+      "stdout": "threshold@q=0.95: 0.002212\nPoint-wise P=0.0763 R=0.6165 F1=0.1359"
+    },
+    {
+      "source_cell_index": 9,
+      "stdout": "Raw     P=0.0763 R=0.6165 F1=0.1359\nPA      P=0.1182 R=1.0000 F1=0.2114"
+    }
+  ]
+}

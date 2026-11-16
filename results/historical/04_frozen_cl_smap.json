@@ -1,0 +1,19 @@
+{
+  "notebook": "notebooks/04_frozen_cl_smap.ipynb",
+  "source_sha256": "d5e053e400bb36d873f07e8f871cf8b5ca51979aa76024dc823e436b6eb7cb99",
+  "status": "saved source stdout, not rerun or independently validated",
+  "outputs": [
+    {
+      "source_cell_index": 5,
+      "stdout": "Testing TranAD on SMAP\n\n--- Baseline TranAD ---\n{'FN': 0,\n 'FP': 182,\n 'Hit@100%': 1.0,\n 'Hit@150%': 1.0,\n 'NDCG@100%': 0.9999999999999999,\n 'NDCG@150%': 0.9999999999999999,\n 'ROC/AUC': 0.9882686605646513,\n 'TN': 7575,\n 'TP': 748,\n 'f1': 0.8915325929177795,\n 'precision': 0.8043010666204187,\n 'recall': 0.9999999866310163,\n 'threshold': 0.16133320075167015}"
+    },
+    {
+      "source_cell_index": 7,
+      "stdout": "best alpha = 0.06\n\n--- TranAD + CL(best alpha) ---\n  f1: 0.895803\n  precision: 0.811280\n  recall: 1.000000\n  TP: 748\n  TN: 7583\n  FP: 174\n  FN: 0\n  ROC/AUC: 0.988784\n  threshold: 0.155220"
+    },
+    {
+      "source_cell_index": 10,
+      "stdout": "可视化完成：混淆矩阵、ROC/PR、分布图、时序图。\nTranAD: {'f1': 0.8915325929177795, 'precision': 0.8043010666204187, 'recall': 0.9999999866310163, 'ROC/AUC': 0.9882686605646513}\nTranAD+CL: {'f1': 0.8958034268120577, 'precision': 0.811279817665078, 'recall': 0.9999999866310163, 'ROC/AUC': 0.9887843238365348}"
+    }
+  ]
+}

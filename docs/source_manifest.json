@@ -1,0 +1,186 @@
+{
+  "source_selection": "primary code workspace; secondary archive cross-check",
+  "files": [
+    {
+      "path": "TranAD/main.py",
+      "source_sha256": "7bf0818729bdd87ad17d3464e0aa28b294159874f1e69bc9bdda1194fe8ed713",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/preprocess.py",
+      "source_sha256": "8fbd1ea39c238d791c34c74076c26f2fa45da87132c8123f526a81fdd1892a0c",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/requirements.txt",
+      "source_sha256": "2c62d783fc609ece4b029cbbb08e99e365c0fb7593c49b27ef622b7b6cbbb363",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/LICENSE",
+      "source_sha256": "4f85c66fd9bddd31a71c23445963632dae1535143d318e07de30e17e6b9d2dfe",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/constants.py",
+      "source_sha256": "b3649e498449c9b79868e1aa26b4ba1b0fdae0a913034b2d8b1e728c02b655ec",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/diagnosis.py",
+      "source_sha256": "eba78c94e86faefb6dbedf4c57040a1fecd46bc87cf9c4f841ac19a66abdbb1e",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/dlutils.py",
+      "source_sha256": "7137ab910637e5424e2259ec9045944907066b03a43408cba89025dec958560a",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/folderconstants.py",
+      "source_sha256": "1303d259ffd21a78c37b90eb62810acae99e225a1aef3a7718956f7ee27c6348",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/merlin.py",
+      "source_sha256": "685333d921cf7cc4d8faa0869a91e2f39931110bb16e0626f0f87e258c8803de",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/models.py",
+      "source_sha256": "37cc84197c5dd938babc5654d7b391701bfdb3dbfa5550b7465f8bd7e4aa7312",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/params.json",
+      "source_sha256": "04a5e0208e03716542326fb8309e3ae7e99c645703782ccd45b377cc771b71d7",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/parser.py",
+      "source_sha256": "4f417c5e8c94f5d403b0d754bc65a25552710e14fdebbd15514aa4b4e8c1f70d",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/plotting.py",
+      "source_sha256": "f0dda952fa5b9fb5245604a958d2ee9ebce2890e4d3a2b334da9cc39705fb37c",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/pot.py",
+      "source_sha256": "32e73cc228610bcc463e065c78185f78f850bfafd098d8a19cafbedb8b41c1f1",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/spot.py",
+      "source_sha256": "b77a326eac28dcb598f63dfbf233f4e36ea649cc236b47aad2e0c005a2421f9e",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "TranAD/src/utils.py",
+      "source_sha256": "fdef2ae58b3e287c50d018eb345cadc02339842748215af7d5a8db9722fb4fd0",
+      "archive_copy_matches": true,
+      "transformation": "byte-identical local TranAD source"
+    },
+    {
+      "path": "notebooks/01_tranad_wadi.ipynb",
+      "source_sha256": "ad6be4c70109746bf49fabea2ed463dbc5da2e6f2b5a179ef7bdf6a102928703",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/02_frozen_cl_wadi.ipynb",
+      "source_sha256": "2f37910dc0a991bb960e1cd54ae7d6a3c805b60675db4c8c30beb1c62abfd2e4",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks; optional joint-training branch omitted; kept separately in notebook 03"
+    },
+    {
+      "path": "notebooks/03_joint_cl_negative_case.ipynb",
+      "source_sha256": "2a89a5ff441ba84c772753b2ad23d59f495094407dfb57558c9d5dc5b1b51f94",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/04_frozen_cl_smap.ipynb",
+      "source_sha256": "d5e053e400bb36d873f07e8f871cf8b5ca51979aa76024dc823e436b6eb7cb99",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/05_frozen_cl_smd.ipynb",
+      "source_sha256": "767121362e18ef4ffa81bc9fd3b540f1e18dcb4832be9f7a1687c2f3681cc84f",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/06_transformer_baseline.ipynb",
+      "source_sha256": "8b50fa4e7ddbb3949aecbf5690bc1360e2fa868ee9aa0549259a80af32510bf0",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/07_contrastive_transformer.ipynb",
+      "source_sha256": "c92a7fcc36f9e583ccce50f95d0023104c3e2966c6624358137734c6cfc49754",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/08_contrastive_ablation.ipynb",
+      "source_sha256": "88363c707e8cc80646cfd627fff43a6c89e91f85b512da78c32e967fdbf89a5c",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/09_two_stage_transformer_cl.ipynb",
+      "source_sha256": "128e681c2ee0302bf10ea80544e8d63d93ac0e33a7a330b4efb94f39c0010e4a",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/10_two_stage_transformer_cl_grid.ipynb",
+      "source_sha256": "bf88c8e742ac16430ad22232533658724735979611d75c0ee5c55d3f1e765332",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/11_score_quantile_scan.ipynb",
+      "source_sha256": "56739b8d453dc3a9c5f3ac53604d02ea59fda39cef3a4878417ef6e1032eec85",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "notebooks/12_postprocess_search.ipynb",
+      "source_sha256": "c4ee611fe703c6bbc750c6eac5630c0e393afcc8d9a71a2f0ab5cf1d78d0d8cc",
+      "transformation": "renamed; outputs cleared; portable paths; explicit dependency checks"
+    },
+    {
+      "path": "results/exploratory/tranad2_cl_eval_summary.csv",
+      "source_sha256": "be56021dfef268042e250da14df6eb8c957f3947deea778f275e027425df4c06",
+      "transformation": "byte-identical exploratory summary; see evaluation caveats"
+    },
+    {
+      "path": "results/exploratory/tranad2_cl_grid_best.csv",
+      "source_sha256": "734aba8612ed3fc39f188f1b82a9cca24e76fcaf3f53c0b2b3e69e69243111f0",
+      "transformation": "byte-identical exploratory summary; see evaluation caveats"
+    },
+    {
+      "path": "results/exploratory/tranad2_cl_quantile_sweep.csv",
+      "source_sha256": "6e6e386e70024dc574f0ab02bb387a79483d4a2f76583c9d576b21a7aff62f8d",
+      "transformation": "byte-identical exploratory summary; see evaluation caveats"
+    },
+    {
+      "path": "results/exploratory/tranad_cl_eval_summary.csv",
+      "source_sha256": "4f40bb741b540c4777fa04d02a19a3a9993a9eec81a45a20a1411b4418f6907e",
+      "transformation": "byte-identical exploratory summary; see evaluation caveats"
+    },
+    {
+      "path": "results/exploratory/tranad_cl_quantile_sweep.csv",
+      "source_sha256": "5395bd2c80fa2fff6cfdf723b243cc1e7ca3ecd6e67cc7b2d8557c4f5e663148",
+      "transformation": "byte-identical exploratory summary; see evaluation caveats"
+    }
+  ]
+}

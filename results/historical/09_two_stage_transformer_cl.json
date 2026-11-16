@@ -1,0 +1,15 @@
+{
+  "notebook": "notebooks/09_two_stage_transformer_cl.ipynb",
+  "source_sha256": "128e681c2ee0302bf10ea80544e8d63d93ac0e33a7a330b4efb94f39c0010e4a",
+  "status": "saved source stdout, not rerun or independently validated",
+  "outputs": [
+    {
+      "source_cell_index": 8,
+      "stdout": "threshold@q=0.95: 0.002212\nPoint-wise P=0.0763 R=0.6165 F1=0.1359"
+    },
+    {
+      "source_cell_index": 9,
+      "stdout": "Raw     P=0.0763 R=0.6165 F1=0.1359\nPA      P=0.1182 R=1.0000 F1=0.2114"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "notebook": "notebooks/06_transformer_baseline.ipynb",
+  "source_sha256": "8b50fa4e7ddbb3949aecbf5690bc1360e2fa868ee9aa0549259a80af32510bf0",
+  "status": "saved source stdout, not rerun or independently validated",
+  "outputs": [
+    {
+      "source_cell_index": 3,
+      "stdout": "threshold@q=0.95: 0.001678\nRaw     P=0.0720 R=0.7293 F1=0.1310\nPA(adjust) P=0.0961 R=1.0000 F1=0.1754"
+    },
+    {
+      "source_cell_index": 4,
+      "stdout": "Smooth(k=21) + seg(min_len=20, gap=10)\nPost    P=0.0717 R=0.7305 F1=0.1306\nPost+PA P=0.0956 R=1.0000 F1=0.1745"
+    }
+  ]
+}

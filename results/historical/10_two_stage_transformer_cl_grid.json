@@ -1,0 +1,27 @@
+{
+  "notebook": "notebooks/10_two_stage_transformer_cl_grid.ipynb",
+  "source_sha256": "bf88c8e742ac16430ad22232533658724735979611d75c0ee5c55d3f1e765332",
+  "status": "saved source stdout, not rerun or independently validated",
+  "outputs": [
+    {
+      "source_cell_index": 8,
+      "stdout": "=== 网格最优（主优化 PA_F1） ===\n  smooth_k: 1\n  quantile: 0.995\n  threshold: 0.24825081779807806\n  min_len: 25\n  merge_gap: 0\n  Raw_P: 0.07503490701580427\n  Raw_R: 0.7433096121078481\n  Raw_F1: 0.13630974809532123\n  PA_P: 0.09839735687164061\n  PA_R: 1.0\n  PA_F1: 0.1791653198290414\n\n使用平滑后分数 + 最优后处理 → Point-wise P=0.0750 R=0.7433 F1=0.1363\nSaved: tranad2_cl_grid_best.csv"
+    },
+    {
+      "source_cell_index": 9,
+      "stdout": "Raw     P=0.0750 R=0.7433 F1=0.1363\nPA      P=0.0984 R=1.0000 F1=0.1792"
+    },
+    {
+      "source_cell_index": 11,
+      "stdout": "=== Classification report (Raw) ===\n              precision    recall  f1-score   support\n\n      Normal     0.0000    0.0000    0.0000         0\n      Attack     1.0000    0.5720    0.7277    172801\n\n    accuracy                         0.5720    172801\n   macro avg     0.5000    0.2860    0.3638    172801\nweighted avg     1.0000    0.5720    0.7277    172801\n\n=== Classification report (Point-Adjust) ===\n              precision    recall  f1-score   support\n\n      Normal     0.0000    0.0000    0.0000         0\n      Attack     1.0000    0.5868    0.7396    172801\n\n    accuracy                         0.5868    172801\n   macro avg     0.5000    0.2934    0.3698    172801\nweighted avg     1.0000    0.5868    0.7396    172801\n"
+    },
+    {
+      "source_cell_index": 12,
+      "stdout": "ROC-AUC: 0.528193\nAverage Precision (PR-AUC): 0.958090"
+    },
+    {
+      "source_cell_index": 14,
+      "stdout": "Raw F1 最大行:\n quantile     0.980000\nthreshold    0.075038\nRaw_P        0.078494\nRaw_R        0.806555\nRaw_F1       0.143065\nPA_P         0.095522\nPA_R         1.000000\nPA_F1        0.174386\n\nPA F1 最大行:\n quantile     0.990000\nthreshold    0.152127\nRaw_P        0.077343\nRaw_R        0.778891\nRaw_F1       0.140714\nPA_P         0.097166\nPA_R         1.000000\nPA_F1        0.177122"
+    }
+  ]
+}

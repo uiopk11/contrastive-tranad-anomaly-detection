@@ -1,0 +1,14 @@
+# Compatibility ranges only; not a historically verified lock file.
+# Install a compatible PyTorch build separately, as explained in docs/reproduction.md.
+numpy<2
+pandas
+scikit-learn
+matplotlib
+tqdm
+SciencePlots
+dgl
+torchdata==0.7.1
+pydantic
+xlrd==1.2.0
+jupyterlab
+ipykernel

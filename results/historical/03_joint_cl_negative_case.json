@@ -1,0 +1,23 @@
+{
+  "notebook": "notebooks/03_joint_cl_negative_case.ipynb",
+  "source_sha256": "2a89a5ff441ba84c772753b2ad23d59f495094407dfb57558c9d5dc5b1b51f94",
+  "status": "saved source stdout, not rerun or independently validated",
+  "outputs": [
+    {
+      "source_cell_index": 15,
+      "stdout": "Epoch 0,\tL1 = 0.04593618645171653\nEpoch 1,\tL1 = 0.029523820413240774\nEpoch 2,\tL1 = 0.016912328782762564\nEpoch 3,\tL1 = 0.012497281586208085\nEpoch 4,\tL1 = 0.010027077734336773\nTraining time:   237.0313 s\nTesting TranAD on WADI\n           f1  precision    recall     TP       TN       FP     FN   ROC/AUC  \\\n0    0.109092   0.057693  1.000000  997.0      0.0  16284.0    0.0  0.500000   \n1    0.346703   0.355861  0.338014  337.0  15674.0    610.0  660.0  0.650277   \n2    0.000000   0.000000  0.000000    0.0  16284.0      0.0  997.0  0.500000   \n3    0.320254   0.249719  0.446339  445.0  14947.0   1337.0  552.0  0.682117   \n4    0.364059   0.823322  0.233701  233.0  16234.0     50.0  764.0  0.615315   \n..        ...        ...       ...    ...      ...      ...    ...       ...   \n122  0.296168   0.977528  0.174524  174.0  16280.0      4.0  823.0  0.587139   \n123  0.473817   0.681733  0.363089  362.0  16115.0    169.0  635.0  0.676355   \n124  0.000000   0.000000  0.000000    0.0  16269.0     15.0  997.0  0.499539   \n125  0.424786   0.596014  0.329990  329.0  16061.0    223.0  668.0  0.658148   \n126  0.427551   0.469952  0.392177  391.0  15843.0    441.0  606.0  0.682547   \n\n       threshold  \n0       0.035508  \n1       0.127399  \n2    7247.560134  \n3       0.005753  \n4       0.263637  \n..           ...  \n122     0.004499  \n123     0.007153  \n124     0.670500  \n125     0.005938  \n126     0.082983  \n\n[127 rows x 9 columns]\n{'FN': 262,\n 'FP': 571,\n 'Hit@100%': 1.0,\n 'Hit@150%': 1.0,\n 'NDCG@100%': 1.0000000000000002,\n 'NDCG@150%': 1.0000000000000002,\n 'ROC/AUC': 0.8510732701666779,\n 'TN': 15713,\n 'TP': 735,\n 'f1': 0.6382929568467324,\n 'precision': 0.5627871319847846,\n 'recall': 0.737211627510415,\n 'threshold': 0.05689495212542493}"
+    },
+    {
+      "source_cell_index": 19,
+      "stdout": "\n--- POT 评估指标 ---\n  f1: 0.6383\n  precision: 0.5628\n  recall: 0.7372\n  ROC/AUC: 0.8511\n  threshold: 0.0569\n  Hit@100%: 1.0000\n  Hit@150%: 1.0000\n  NDCG@100%: 1.0000\n  NDCG@150%: 1.0000\n  TP=735 TN=15713 FP=571 FN=262\n"
+    },
+    {
+      "source_cell_index": 21,
+      "stdout": "[CL] epoch=01 recon=0.003770 cl=1.888386 total=0.013212\n[CL] epoch=02 recon=0.001977 cl=1.486814 total=0.009411\n[CL] epoch=03 recon=0.001518 cl=1.366050 total=0.008348\n[CL] epoch=04 recon=0.001282 cl=1.300469 total=0.007785\n[CL] epoch=05 recon=0.001132 cl=1.259165 total=0.007428\n\n--- TranAD + CL POT 评估指标 ---\n  f1: 0.1091\n  precision: 0.0577\n  recall: 1.0000\n  TP: 997\n  TN: 0\n  FP: 16284\n  FN: 0\n  ROC/AUC: 0.5000\n  threshold: 0.0106\n  Hit@100%: 1.0000\n  Hit@150%: 1.0000\n  NDCG@100%: 1.0000\n  NDCG@150%: 1.0000"
+    },
+    {
+      "source_cell_index": 22,
+      "stdout": "当前评估对象: CL | 样本数: 17281\n\n=== Classification Report (0=normal, 1=anomaly) ===\n              precision    recall  f1-score   support\n\n      normal     0.0000    0.0000    0.0000     16284\n     anomaly     0.0577    1.0000    0.1091       997\n\n    accuracy                         0.0577     17281\n   macro avg     0.0288    0.5000    0.0545     17281\nweighted avg     0.0033    0.0577    0.0063     17281\n"
+    }
+  ]
+}
